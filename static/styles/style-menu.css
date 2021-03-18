@@ -1,0 +1,119 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    font-size: 4vh;
+    min-width: 80%;
+    background-color: #000000;
+}
+body {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+strong {
+    font-size: 1rem;
+}
+p {
+    margin-right: 00.5rem;
+
+    font-size: 0.6rem;
+    text-align: right;
+}
+li {
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+hr {
+    margin: 0.2rem 0rem 0.2rem 0rem;
+    background: black;
+}
+div.header {
+    margin: 0%;
+    width: 100%;
+    height: 2rem;
+    background-color: rgba(43, 38, 38, 0.9);
+}
+div.title {
+    float: left;
+    margin: 0%;
+    padding: 0.5rem;
+
+    text-align: center;
+    font-size: 0.8rem;
+    height: fit-content;
+    width: fit-content;
+    color: rgb(171, 172, 158);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.bottom {
+    float: right;
+    margin: 0%;
+    padding: 0.5rem;
+    
+    text-align: center;
+    font-size: 0.8rem;
+
+    height: fit-content;
+    width: fit-content;
+    color: rgb(171, 172, 158);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#h1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    height: fit-content;
+    min-height: 85vh;
+
+    /*background-color: #cecccc;*/
+    /*background-image: url('https://pic4.zhimg.com/50/v2-ff194195cddd74b39a65655a503a8063_r.jpg');
+    background-size: 100%;
+    background-repeat: repeat-y;*/
+    background-color: whitesmoke;
+
+}
+div.menuitem {
+    margin: 0.7rem 0.5rem 0.7rem 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem%;
+    padding: 0.3rem;
+    padding-left: 0.7rem;
+
+    border-radius: 1rem;
+
+    background-color: rgba(255, 255, 255, 0.75);
+
+    width: 18rem;
+    max-width: 84%;
+    min-width: 18vh;
+
+    text-align: left;
+    font-size: 0.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.footer {
+    padding-top: 0.3rem;
+
+    width: 100%;
+    height: fit-content;
+    min-height: 8vh;
+
+    background-color: rgba(43, 38, 38, 0.9);
+
+    color: rgb(171, 172, 158);
+    text-align: center;
+    line-height: 150%;
+    font-size: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#bottom_img {
+    margin: 0.3rem 0.8rem 0rem 0.8rem;
+    width: 1rem;
+}
+input {
+    background-color: rgba(255, 255, 255, 0.9);
+}

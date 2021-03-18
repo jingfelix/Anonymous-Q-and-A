@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" sizes="" href="https://jingfelix-ihs.oss-cn-beijing.aliyuncs.com/images/ico.png">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/style-menu.css')}}">
+    <script type="text/javascript" async src="{{url_for('static', filename='scripts/click.js')}}"></script>
+    <title>Ask me anything!</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="{{url_for('index', _external=True)}}">
+            <div class="title">
+                Anonymous
+            </div>
+        </a>
+        <a href="{{url_for('about', _external=True)}}">
+            <div class="bottom">
+                ABOUT
+            </div>
+        </a>
+    </div>
+    <div id="h1">
+        <center>
+            {{notice|safe}}
+            <div class="menuitem">
+                <strong>
+                    Ask me anything!
+                </strong>
+            </div>
+            <form action="{{url_for('index')}}" method="POST">
+                <center>
+                    <input type="text" name="text" placeholder="向我提问吧!"
+                        style="width: 16rem;
+                        height: 3rem;
+                        max-width: 80%;
+                        min-width: 18vh; border-radius: 1rem; text-align: center;">
+                        <br>
+                    <button type="submit" placeholder="提交" style="width: 6rem; height: 1rem; margin-top: 0.3rem; border-radius: 0.3rem;">提交</button>
+                </center>
+            </form>
+                {{content|safe}}
+        </center>
+    </div>
+
+    <div class="footer">
+        "星の鼓動は愛"
+        <a href="https://github.com/jingfelix">
+            <img id="bottom_img" src="https://jingfelix-ihs.oss-cn-beijing.aliyuncs.com/images/ico.png" alt="">
+        </a>
+        By jfelix 2021
+    </div>
+</body>
+
+</html>
