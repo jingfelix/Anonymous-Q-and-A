@@ -16,4 +16,3 @@ A template for a anonymous Q&amp;A box.
         * 2021年3月8日立项
         * 2021年3月13日完成前端核心功能开发
         * 2021年3月日上线
-* 技术栈：前端：html css javascript 后端： nginx + python Flask
